@@ -4,7 +4,7 @@
   "description": "Comming soon project",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server --port=3000"
+    "dev": "live-server --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Romualdas",
