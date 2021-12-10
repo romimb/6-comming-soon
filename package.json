@@ -1,0 +1,15 @@
+{
+  "name": "6-comming-soon",
+  "version": "1.0.0",
+  "description": "Comming soon project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Romualdas",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
