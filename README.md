@@ -12,7 +12,10 @@ Design: [Coming soon](https://discord.com/channels/571393319201144843/8502455338
 
 -   HTML form
 -   CSS background images
--   
+-   Github pages
+-   CSS animation
+-   FontAwesome icons
+-   Responsive design
 
 ## Authors
 
