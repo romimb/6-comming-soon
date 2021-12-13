@@ -8,13 +8,25 @@
 .container > .row {
     display: inline-block;
     width: 800px;
-    margin margin-left: calc(50% - 400px);
+    margin-left: calc(50% - 400px);
 }
 
 .container > .row-short {
     display: inline-block;
     width: 600px;
-    margin margin-left: calc(50% - 300px);
+    margin-left: calc(50% - 300px);
+}
+
+.container .left {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.container .right {
+    display: inline-block;
+    float: left;
+    width: 40%;
 }
 
 @media (max-width 900px) {
@@ -29,6 +41,15 @@
     .container > .row {
         width: 400px;
         margin-left: calc(50% - 200px);
+    }
+
+    .container .left {
+        width: 50%;
+        margin-right: 0;
+    }
+    
+    .container .right {
+        width: 40%;
     }
 }
 
