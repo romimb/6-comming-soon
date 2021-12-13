@@ -14,7 +14,7 @@
 
 /* CUSTOM STYLES BELOW THIS COMMENT, FOR THIS PAGE */
 
-.container {
+/* .container {
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
@@ -35,7 +35,7 @@
 
 /* min-width */
 /* max-width */
-@media (max-width: 1100px) {
+/*@media (max-width: 1100px) {
     .container {
         width: 800px;
         margin-left: calc(50% - 400px);
@@ -75,4 +75,4 @@
         padding: 30px;
         background-color: aquamarine;
     }
-}
+} */
