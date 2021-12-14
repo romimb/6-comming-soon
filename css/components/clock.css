@@ -1,0 +1,33 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.clock > .time {
+    width: 25%;
+    float: left;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.clock > .time > .value {
+    display: inline-block;
+    width: 100%;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.clock > .time > .title {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px){
+    .clock > .time {
+        width: 50%;
+    }
+}
+
