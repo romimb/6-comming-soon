@@ -14,6 +14,41 @@
 
 /* CUSTOM STYLES BELOW THIS COMMENT, FOR THIS PAGE */
 
+.hero {
+    padding-bottom: 30px;
+}
+
+.hero > .row-short {
+    text-align: center;
+}
+
+.hero .logo {
+    width: 100%;
+    height: 50px;
+    margin-top: 45px;
+    object-fit: contain;
+}
+
+.hero .main-title {
+    margin-top: 15px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.hero .main-description {
+    margin-top: 45px;
+    font-size: 18px;
+    text-decoration: grey;
+}
+
+.hero .clock {
+    margin-bottom: 45px;
+}
+
+.hero .form {
+    margin-bottom: 45px;
+}
+
 /* .container {
     display: inline-block;
     width: 1000px;
