@@ -15,7 +15,12 @@
 /* CUSTOM STYLES BELOW THIS COMMENT, FOR THIS PAGE */
 
 .hero {
+    min-height: 100vh;
     padding-bottom: 30px;
+    background-image: url(../../img/background.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
 }
 
 .hero > .row-short {
