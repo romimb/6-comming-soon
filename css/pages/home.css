@@ -45,7 +45,7 @@
 .hero .main-description {
     margin-top: 30px;
     font-size: 18px;
-    text-decoration: grey;
+    color: grey;
 }
 
 .hero .clock {
@@ -57,3 +57,9 @@
 }
 
 /* HERO: end */
+
+/* MAIN CONTENT start */
+
+
+
+/* MAIN CONTENT end */
