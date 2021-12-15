@@ -55,11 +55,36 @@
 .hero .form {
     margin-bottom: 15px;
 }
-
 /* HERO: end */
 
 /* MAIN CONTENT start */
 
+.column > * {
+    margin-bottom: 20px;
+}
 
+.column > *:last-child {
+    margin-bottom: 0px;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.content-description {
+    font-size: 17px;
+    color: #999;
+}
+
+.content-description > .link{
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.progress-bar {
+
+}
 
 /* MAIN CONTENT end */
