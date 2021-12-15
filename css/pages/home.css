@@ -78,13 +78,9 @@
     color: #999;
 }
 
-.content-description > .link{
+.content-description > .link {
     color: var(--secondary-color);
     text-decoration: underline;
-}
-
-.progress-bar {
-
 }
 
 /* MAIN CONTENT end */

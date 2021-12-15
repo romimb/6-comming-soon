@@ -1,3 +1,21 @@
 .form {
-    
+}
+
+.form > * {
+    margin-bottom: 20px;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form > input {
+    width: calc(50% - 10px);
+}
+
+.form > input:last-of-type {
+    float: right;
+}
+.form > textarea {
+    width: 100%;
 }
