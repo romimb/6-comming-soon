@@ -4,6 +4,7 @@
 @import '../base/layout.css';
 
 /* 3rd-party */
+@import '../components/font-awesome.min.css';
 
 /* components */
 @import '../components/button.css';
@@ -12,13 +13,13 @@
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
 
-/* CUSTOM STYLES BELOW THIS COMMENT, FOR THIS PAGE */
+/* CUSTOM STYLE BELOW THIS COMMENT, FOR THIS PAGE */
 
 /* HERO: start */
 .hero {
     min-height: 100vh;
     padding-bottom: 30px;
-    background-image: url(../../img/background.jpg);
+    background-image: url(../../img/banner-1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -31,21 +32,21 @@
 .hero .logo {
     width: 100%;
     height: 50px;
-    margin-top: 45px;
+    margin-bottom: 45px;
     object-fit: contain;
     object-position: center;
 }
 
 .hero .main-title {
-    margin-top: 15px;
-    font-size: 45px;
+    margin-bottom: 15px;
+    font-size: 44px;
     text-transform: uppercase;
 }
 
 .hero .main-description {
-    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
-    color: grey;
+    color: #777;
 }
 
 .hero .clock {
@@ -53,24 +54,30 @@
 }
 
 .hero .form {
-    margin-bottom: 15px;
+    width: 90%;
+    margin: 0 5% 15px;
+}
+.hero .form > .input {
+    color: #fff;
+    border-color: currentColor;
+}
+.hero .form > .input::placeholder {
+    color: currentColor;
 }
 /* HERO: end */
 
-/* MAIN CONTENT start */
-
+/* MAIN CONTENT: start */
 .column > * {
     margin-bottom: 20px;
 }
-
 .column > *:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .content-title {
     text-transform: uppercase;
     font-size: 20px;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 .content-description {
@@ -80,7 +87,25 @@
 
 .content-description > .link {
     color: var(--secondary-color);
+    text-decoration: none;
+}
+.content-description > .link:hover {
     text-decoration: underline;
 }
 
-/* MAIN CONTENT end */
+main .form > button {
+    float: right;
+}
+
+@media (min-width: 900px) {
+    main .form > input.input {
+        width: calc(50% - 10px);
+    }
+    main .form > input.input:last-of-type {
+        float: right;
+    }
+}
+/* MAIN CONTENT: end */
+
+/* FOOTER: start */
+/* FOOTER: end */

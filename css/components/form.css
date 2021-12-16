@@ -1,4 +1,6 @@
 .form {
+    display: inline-block;
+    width: 100%;
 }
 
 .form > * {
@@ -9,29 +11,19 @@
     margin-bottom: 0;
 }
 
-.form > input {
-    width: calc(50% - 10px);
-}
-
-.form > input:last-of-type {
-    float: right;
-}
-.form > textarea {
-    width: 100%;
-}
-
 .form > label {
     display: none;
-    /* visibility: hidden;
-    opacity: 0; */
 }
 
 .form > .input {
-    padding: 0.5em 0em;
+    width: 100%;
+    padding: 0.5em 0;
+    float: left;
     font-size: 17px;
     line-height: 1.5em;
+    background-color: transparent;
     border: none;
-    border-bottom: solid 1px #ccc;
+    border-bottom: 2px solid #ccc;
     border-radius: 0.2em;
 }
 
