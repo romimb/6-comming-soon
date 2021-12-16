@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,12 +31,13 @@
     <!-- custom.css -->
 
 </head>
+
 <body>
     <section class=" container bg-primary hero">
         <div class="row-short">
             <img class="logo" src="./img/favicon.png" alt="logo">
             <h1 class="main-title">Coming soon</h1>
-            <p class="main-description" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, vero quisquam aperiam architecto nam eius ad hic explicabo voluptates recusandae.
+            <p class="main-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, vero quisquam aperiam architecto nam eius ad hic explicabo voluptates recusandae.
             </p>
             <div class="clock">
                 <div class="time">
@@ -56,7 +58,9 @@
                 </div>
             </div>
             <form class="form">
-                SUBSCRIBE FORM
+                <label for="email">Email</label>
+                <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email" value="">
+                <button class="btn" type="submit">Send message</button>
             </form>
             <div class="mouse">
                 MOUSE
@@ -65,23 +69,68 @@
     </section>
     <main class="container">
         <div class="row">
-            <div class="left">
-                LEFT CONTENT
+            <div class="column left">
+                <h2 class="section-title">About startup</h2>
+                <p class="content-description"><a class="link" href="#">Matrox</a></p>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">UX Design</div>
+                        <div class="value">77%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 77%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Design</div>
+                        <div class="value">86%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 86%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div class="title">Web Development</div>
+                        <div class="value">50%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 50%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="right">
-                RIGHT CONTENT
+            <div class="column right">
+                <h2 class="content-title">Have any questions?</h2>
+                <p class="content-description"><a class="link" href="mailto:vard@pavard.xyz">vard@pavard.xyz</a></p>
+                <form class="form">
+                    <label for="name">name</label>
+                    <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name">
+                    <label for="email">email</label>
+                    <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email">
+                    <label for="message">message</label>
+                    <textarea name="" id="message" class="input" placeholder="Message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
+                </form>
             </div>
         </div>
     </main>
     <footer class="container bg-primary">
-        <div class="row">
-            FOOTER CONTENT
+        <div class="row socials">
+            <a href="#" target="_blank" class="fa fa-facebook-official"></a>
+            <a href="#" target="_blank" class="fa fa-twitter"></a>
+            <a href="#" target="_blank" class="fa fa-dribbble"></a>
+            <a href="#" target="_blank" class="fa fa-tumblr"></a>
+            <a href="#" target="_blank" class="fa fa-linkedin"></a>
+            <a href="#" target="_blank" class="fa fa-instagram"></a>
+            <a href="#" target="_blank" class="fa fa-rss"></a>
         </div>
         <div class="row-short">
             FOOTER CONTENT
         </div>
     </footer>
-</div>
-    
+    </div>
+
 </body>
+
 </html>
