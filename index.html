@@ -102,10 +102,13 @@
                 <h2 class="content-title">Have any questions?</h2>
                 <p class="content-description"><a class="link" href="mailto:vard@pavard.xyz">vard@pavard.xyz</a></p>
                 <form class="form">
-                    <input type="text" placeholder="Name" required autocomplete="name">
-                    <input type="email" placeholder="Email" required autocomplete="email">
-                    <textarea name="" id="" placeholder="Message" required autocomplete="off"></textarea>
-                    <button type="submit">Send message</button>
+                    <label for="name">name</label>
+                    <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name">
+                    <label for="email">email</label>
+                    <input id="email" class="input" type="email" placeholder="Email" required autocomplete="email">
+                    <label for="message">message</label>
+                    <textarea name="" id="message" class="input" placeholder="Message" required autocomplete="off"></textarea>
+                    <button class="btn" type="submit">Send message</button>
                 </form>
             </div>
         </div>

@@ -19,3 +19,30 @@
 .form > textarea {
     width: 100%;
 }
+
+.form > label {
+    display: none;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+.form > .input {
+    padding: 0.5em 0em;
+    font-size: 17px;
+    line-height: 1.5em;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    border-radius: 0.2em;
+}
+
+.form > textarea {
+    width: 100%;
+    min-height: 100px;
+    height: 150px;
+    max-height: 300px;
+    resize: vertical;
+}
+
+.form *:focus {
+    outline: 1px solid var(--secondary-color);
+}
