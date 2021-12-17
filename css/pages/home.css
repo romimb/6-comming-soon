@@ -110,11 +110,13 @@ main .form > button {
 /* FOOTER: start */
 footer.container {
     padding-top: 0;
+    text-align: center;
+    font-size: 17px;
+    color: #fff8;
 }
 
 .socials {
     padding: 15px 0;
-    text-align: center;
     border-bottom: 2px solid #fff;
 }
 
@@ -142,4 +144,47 @@ footer .logo {
     object-position: top;
 }
 
+footer .trio {
+    display: inline-block;
+}
+
+footer .trio > p {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+footer .trio > p::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 70%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+footer .trio > p:first-child::before {
+    display: none;
+}
+
+footer .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dollar::before {
+    content: '$';
+}
+
+@media (max-width: 700px) {
+    footer .trio > p::before {
+        display: none;
+    }
+    footer .trio > p {
+        width: 100%;
+    }
+}
 /* FOOTER: end */
