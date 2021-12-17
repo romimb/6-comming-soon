@@ -5,7 +5,7 @@
 }
 
 .container > .row {
-    display: inline-block;
+    float: left;
     width: 800px;
     margin: 0 calc(50% - 400px);
 }
@@ -45,7 +45,7 @@
         width: 100%;
         margin: 0 0 60px;
     }
-    
+
     .container .right {
         width: 100%;
     }
