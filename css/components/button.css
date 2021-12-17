@@ -2,13 +2,24 @@
     padding: 0.8em 1em;
     font-size: 20px;
     line-height: 1em;
+    text-decoration: none;
     color: #fff;
     background-color: var(--secondary-color);
     border: none;
     border-radius: 0.1em;
     cursor: pointer;
 }
-
+.btn + .btn {
+    margin-right: 20px;
+}
+.btn.btn-round {
+    border-radius: 1.3em;
+}
+.btn.btn-round.fa {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 2.6em;
+}
 .btn:hover {
     background-color: var(--secondary-color-dark);
 }
