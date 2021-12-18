@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
@@ -11,4 +15,3 @@ body * {
 .bg-primary {
     background-color: var(--primary-color);
 }
-

@@ -19,7 +19,7 @@
 .hero {
     min-height: 100vh;
     padding-bottom: 30px;
-    background-image: url(../../img/banner-1.jpg);
+    background-image: url(../../img/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -78,6 +78,9 @@
     text-transform: uppercase;
     font-size: 20px;
     line-height: 1.2em;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 .content-description {
@@ -110,15 +113,18 @@ main .form > button {
 /* FOOTER: start */
 footer.container {
     padding-top: 0;
+    text-align: center;
+    font-size: 17px;
+    color: #fff8;
 }
 
 .socials {
     padding: 15px 0;
-    text-align: center;
     border-bottom: 2px solid #fff;
+    position: relative;
 }
 
-.socials > .fa {
+.socials > .social {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -129,9 +135,75 @@ footer.container {
     transition: all 0.3s;
 }
 
-.socials > .fa:hover {
+.socials > .social:hover {
     background-color: #fff;
     color: var(--primary-color);
 }
 
+footer .logo {
+    max-height: 50px;
+    width: 100%;
+    margin: 50px 0;
+    object-fit: contain;
+    object-position: top;
+}
+
+footer .trio {
+    display: inline-block;
+}
+
+footer .trio > p {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+footer .trio > p::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 70%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+footer .trio > p:first-child::before {
+    display: none;
+}
+
+footer .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dollar::before {
+    content: '$';
+}
+
+@media (max-width: 700px) {
+    footer .trio > p::before {
+        display: none;
+    }
+    footer .trio > p {
+        width: 100%;
+    }
+}
 /* FOOTER: end */
+
+.back-to-top {
+    /* position: fixed;
+    bottom: 40px;
+    right: 40px; */
+    position: absolute;
+    top: -0.8em;
+    right: -0.4em;
+}
+
+@media (max-width: 700px) {
+    .back-to-top {
+        display: none;
+    }
+}
