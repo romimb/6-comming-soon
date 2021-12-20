@@ -26,20 +26,21 @@
 .progress-bar > .bottom > .bar {
     width: 90%;
     height: 100%;
+}
+
+.progress-bar .bar > .loading {
+    width: 0;
+    height: 100%;
     background-color: var(--primary-color);
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
-
-.progress-bar > .bottom > .bar-1 {
-    width: 90%;
-    
-}
-
-.progress-bar > .bottom > .bar-2 {
-    width: 90%;
-   
-}
-
-.progress-bar > .bottom > .bar-3 {
-    width: 90%;
-
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
